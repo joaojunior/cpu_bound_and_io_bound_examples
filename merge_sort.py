@@ -1,11 +1,21 @@
+from threading import Thread
+
+
 def merge_sort(array):
     if len(array) > 1:
         mid = len(array) // 2
         left_array = array[:mid]
         right_array = array[mid:]
 
-        merge_sort(left_array)
-        merge_sort(right_array)
+        thread_array_left = Thread(target=merge_sort, args=(left_array,))
+        thread_array_right = Thread(target=merge_sort, args=(right_array,))
+        threads = [thread_array_left, thread_array_right]
+
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
         merge(array, left_array, right_array)
 
 
