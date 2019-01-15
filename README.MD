@@ -17,7 +17,7 @@ Also, we will discuss about use [multiprocessing](https://docs.python.org/3.7/li
 
 The python code of the merge-sort algorithm presents in this repo is based on the code found in [https://www.geeksforgeeks.org/merge-sort/](https://www.geeksforgeeks.org/merge-sort/)
 
-The python code without threads is in the branch merge_sort. And the python code with threads is in the thread merge_sort_with_threads.
+The python code without threads is in the branch [merge_sort](https://github.com/joaojunior/cpu_bound_and_io_bound_examples/tree/merge_sort). And the python code with threads is in the thread [merge_sort_with_threads](https://github.com/joaojunior/cpu_bound_and_io_bound_examples/tree/merge_sort_with_threads).
 
 
 ## Merge-sort
