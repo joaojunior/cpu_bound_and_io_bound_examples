@@ -1,2 +1,2 @@
 benchmark:
-	pytest benchmark.py --benchmark-min-rounds=100
+	pytest benchmark.py --benchmark-min-rounds=10
