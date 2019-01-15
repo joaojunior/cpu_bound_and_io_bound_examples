@@ -42,9 +42,9 @@ def merge(array, left_array, right_array):
 
 
 if __name__ == '__main__':
-    NUMBER_ITENS = 10
+    NUMBER_ITENS = 2 * (10**3)
     array = list(range(NUMBER_ITENS))
     array.reverse()
-    print(array)
+
     merge_sort(array)
-    print(array)
+    print('Array is sorted? ', array == sorted(array))
