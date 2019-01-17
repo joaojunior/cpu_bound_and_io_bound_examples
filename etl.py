@@ -23,8 +23,7 @@ def get_all_data():
     for year in range(START_YEAR, FINISH_YEAR + 1):
         result = crawler(URL.format(year))
         women, men = parser(result)
-        print(year,' Rate = ', women / men)
-
+        print(year, ' Rate = ', women / men)
 
 
 if __name__ == '__main__':
