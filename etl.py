@@ -3,7 +3,7 @@ import requests
 from constants import START_YEAR, FINISH_YEAR, URL
 
 
-def crawler(url):
+def crawler(url: str):
     r = requests.get(url)
     print(url, r.status_code)
 
