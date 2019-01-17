@@ -1,15 +1,16 @@
+from typing import List, Dict, Tuple
+
 import requests
 
 from constants import START_YEAR, FINISH_YEAR, URL
 
 
-def crawler(url: str):
+def crawler(url: str) -> List[Dict]:
     r = requests.get(url)
     return r.json()
 
 
-def parser(population_data):
-    result = {}
+def parser(population_data: Dict) -> Tuple[int, int]:
     women = 0
     men = 0
     for row in population_data:
