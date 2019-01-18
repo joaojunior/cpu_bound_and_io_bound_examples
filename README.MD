@@ -67,6 +67,7 @@ in the code of the previous example.
 4. Theads in python(using cpython interpreter) are parallel or concurrent for CPU bound problems? Why?
 5. For I/O bound problems, the threads and asyncio are concurrent programming? Why?
 6. Make 1 million of requests with threads and asyncio with batch size of 100, 1k and 10k and compare the performance.
+7. Change the parser(see the code of the crawler) in two functions: one to calculate the amount of men and another to calculate the amount of women and call this two functions with threads and with asyncio.
 
 # 5. References
 
