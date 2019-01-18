@@ -68,3 +68,15 @@ in the code of the previous example.
 5. For I/O bound problems, the threads and asyncio are concurrent programming? Why?
 6. Make 1 million of requests with threads and asyncio with batch size of 100, 1k and 10k and compare the performance.
 
+# 5. References
+
+- [Merge sort algorithm](https://en.wikipedia.org/wiki/Merge_sort)
+- [Understanding the Python GIL - by David Beazley](http://www.dabeaz.com/GIL/)
+- [Async IO in Python: A Complete Walkthrough - by Brad Solomon](https://realpython.com/async-io-python/)
+- [Asynchronous Python for the Complete Beginner - by Miguel Grinberg](https://www.youtube.com/watch?v=iG6fr81xHKA)
+- [Creating a faster crawler - by Joao Junior](http://joaojunior.org/presentations/creating-a-faster-crawler/)
+- [Module threading in python](https://docs.python.org/3.7/library/threading.html)
+- [Module asyncio in python](https://docs.python.org/3/library/asyncio.html)
+- [Library AIOHTTP](https://aiohttp.readthedocs.io/en/stable/)
+- [Awesome asyncio](https://github.com/timofurrer/awesome-asyncio)
+
